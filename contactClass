@@ -1,0 +1,13 @@
+Public class contactClass{
+// method to create contact
+ public static contact createContact(){
+  list<contact> conList = new list<contact>();
+   contact c = new contact();
+   c.lastName = 'Doe';
+   c.firstName = 'John';
+   conList.add(c);
+   insert conList;
+   return c;
+ }
+ 
+}
